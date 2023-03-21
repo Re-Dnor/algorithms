@@ -18,5 +18,3 @@ function merge(left, right) {
 
   return [...sorted, ...left, ...right];
 }
-
-console.log(mergeSort([3, 4, 2, 1]));
