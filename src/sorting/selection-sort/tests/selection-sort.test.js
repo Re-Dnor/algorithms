@@ -1,7 +1,7 @@
 import { selectionSort } from "../selection-sort";
 // import { selectionSort } from "../try-selection-sort";
 
-describe("Быстрая сортировка", () => {
+describe("Сортировка выбором", () => {
   test("Сортированный массив", () => {
     const arr = [1, 2, 3, 4, 5, 6];
     expect(selectionSort(arr)).toEqual(arr);
