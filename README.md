@@ -6,3 +6,8 @@
 ![preview](./public/preview.jpg)
 
 Репозиторий для разбора алгоритмов, структур данных и решения задач с литкода
+
+Содержание:
+
+- [Сортировки](https://github.com/Re-Dnor/algorithms/tree/master/src/sorting)
+- [Поиск](https://github.com/Re-Dnor/algorithms/tree/master/src/search)
