@@ -1,36 +1,31 @@
 import { shellSort } from "../shell-sort.js";
+import { sortedNums, sortedNumsDescending, unsortedNums, emptyArray, aloneNum, sameNums } from "../../utils/index.js";
 // import { shellSort } from "../try-shell-sort.js";
 
 describe("Сортировка Шелла", () => {
   test("Сортированный массив", () => {
-    const arr = [1, 2, 3, 4, 5, 6];
-    expect(shellSort(arr)).toEqual(arr);
+    expect(shellSort(sortedNums)).toEqual(sortedNums);
   });
 
   test("Сортированный массив по убыванию", () => {
-    const arr = [7, 6, 5, 4, 3, 2, 1];
-    const sortedArr = arr.sort((a, b) => a - b);
-    expect(shellSort(arr)).toEqual(sortedArr);
+    const sortedArr = sortedNumsDescending.sort((a, b) => a - b);
+    expect(shellSort(sortedNumsDescending)).toEqual(sortedArr);
   });
 
   test("Неотсортированный массив", () => {
-    const arr = [0, 10, 1, 3, 7, 4, 15, 2, 1];
-    const sortedArr = arr.sort((a, b) => a - b);
-    expect(shellSort(arr)).toEqual(sortedArr);
+    const sortedArr = unsortedNums.sort((a, b) => a - b);
+    expect(shellSort(unsortedNums)).toEqual(sortedArr);
   });
 
   test("Пустой массив", () => {
-    const arr = [];
-    expect(shellSort(arr)).toEqual([]);
+    expect(shellSort(emptyArray)).toEqual([]);
   });
 
   test("Один элемент", () => {
-    const arr = [1];
-    expect(shellSort(arr)).toEqual([1]);
+    expect(shellSort(aloneNum)).toEqual([1]);
   });
 
   test("Одинаковые элементы массива", () => {
-    const arr = [7, 7, 7, 7, 7, 7, 7];
-    expect(shellSort(arr)).toEqual(arr);
+    expect(shellSort(sameNums)).toEqual(sameNums);
   });
 });
