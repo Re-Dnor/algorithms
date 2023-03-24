@@ -21,4 +21,9 @@ describe("Leetcode 14 task: longest common prefix", () => {
     const array = ["prefix", "prefix", "prefix", "prefix", "prefix"];
     expect(longestCommonPrefix(array)).toBe("prefix");
   });
+
+  test("Одинаковые слова", () => {
+    const array = ["react"];
+    expect(longestCommonPrefix(array)).toBe("react");
+  });
 });
