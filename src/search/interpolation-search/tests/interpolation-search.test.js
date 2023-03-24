@@ -1,4 +1,5 @@
 import { interpolationSearch } from "../interpolation-search.js";
+// import { interpolationSearch } from "../try-interpolation-search.js";
 import { sortedNumbers, bigSortedNumbers, missingNumber, aloneNumber, emptyArray } from "../../utils/index.js";
 
 describe("Поиск прыжками", () => {

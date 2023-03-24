@@ -1,4 +1,5 @@
 import { jumpSearch } from "../jump-search.js";
+// import { jumpSearch } from "../try-jump-search.js";
 import { sortedNumbers, bigSortedNumbers, missingNumber, aloneNumber, emptyArray } from "../../utils/index.js";
 
 describe("Поиск прыжками", () => {
