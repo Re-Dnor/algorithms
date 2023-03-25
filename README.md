@@ -12,3 +12,4 @@
 - [Сортировки](https://github.com/Re-Dnor/algorithms/tree/master/src/sorting)
 - [Поиск](https://github.com/Re-Dnor/algorithms/tree/master/src/search)
 - [Leetcode](https://github.com/Re-Dnor/algorithms/tree/master/src/leetcode)
+- [Interview](https://github.com/Re-Dnor/algorithms/tree/master/src/interview)
