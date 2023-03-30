@@ -1,4 +1,5 @@
 import { mergeArray } from "../merge-array.js";
+// import { mergeArray } from "../try-merge-array.js";
 
 describe("Слияние массивов", () => {
   test("Последовательные массивы", () => {
